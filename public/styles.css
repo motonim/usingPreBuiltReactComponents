@@ -9,6 +9,9 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 header {
@@ -65,6 +68,7 @@ footer p {
   height: 36px;
   cursor: pointer;
   outline: none;
+  background-color: transparent;
 }
 
 form.create-note {
